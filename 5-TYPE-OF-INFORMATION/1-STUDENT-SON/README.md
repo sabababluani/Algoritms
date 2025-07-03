@@ -1,4 +1,4 @@
-# How is My Bob Studying? Part 2
+# How is My Bob Studying?
 
 ## Task Description
 
