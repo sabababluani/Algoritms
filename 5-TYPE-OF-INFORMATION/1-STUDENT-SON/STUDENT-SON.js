@@ -1,4 +1,4 @@
-function checkGigoProgress(gigosTestResults) {
+function checkSonProgress(gigosTestResults) {
   const progress =
     gigosTestResults[gigosTestResults.length - 1] - gigosTestResults[0];
 
