@@ -10,6 +10,7 @@ This JavaScript program calculates:
 
 The final result is stored in a variable called `stats`, which is an array with the following structure:
 
+
 - `stats[0]`: average of negative numbers (or `0` if none)
 - `stats[1]`: average of positive numbers (or `0` if none)
 - `stats[2]`: count of zeros
