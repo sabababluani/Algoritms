@@ -7,7 +7,7 @@ This project simulates a change dispenser machine, such as one used in vending m
 A customer buys a carbonated drink from a vending machine.  
 To make the purchase, they insert a bill into the machine:
 
-```ts
+```
 const incomingBill = 10;
 
 ```
