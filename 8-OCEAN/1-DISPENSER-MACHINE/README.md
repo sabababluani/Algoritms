@@ -41,6 +41,7 @@ This means the machine currently has:
     30 bills of 5 Lari
 
     35 bills of 10 Lari
+    
 
 🧮 Example
 
