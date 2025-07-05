@@ -9,6 +9,7 @@ To make the purchase, they insert a bill into the machine:
 
 ```ts
 const incomingBill = 10;
+
 ```
 
 The price of the selected product is:
