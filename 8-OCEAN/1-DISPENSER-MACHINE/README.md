@@ -14,7 +14,6 @@ const incomingBill = 10;
 
 The price of the selected product is:
 
-
 ```ts
 const productPrice = 5;
 ```
