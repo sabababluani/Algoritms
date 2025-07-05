@@ -2,24 +2,25 @@
 
 This project simulates a change dispenser machine, such as one used in vending machines.
 
-## 📚 Description
+##  Description
 
 A customer buys a carbonated drink from a vending machine.  
 To make the purchase, they insert a bill into the machine:
 
 ```ts
 const incomingBill = 10;
+
 ```
 
 The price of the selected product is:
 
-```
+```ts
 const productPrice = 5;
 ```
 
 The machine has a limited quantity of bills available for returning change. These are defined in an array of objects:
 
-```
+```ts
 const bills = [
   { lari: 0.50, quantity: 590 },
   { lari: 1, quantity: 10 },
@@ -40,6 +41,7 @@ This means the machine currently has:
     30 bills of 5 Lari
 
     35 bills of 10 Lari
+    
 
 🧮 Example
 
@@ -66,7 +68,7 @@ Your task is to:
 
 You should return an array representing the change given to the user:
 
-```
+```ts
 [
   { lari: 2, quantity: 1 },
   { lari: 1, quantity: 1 },
