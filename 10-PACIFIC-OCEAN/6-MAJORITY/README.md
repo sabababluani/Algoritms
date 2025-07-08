@@ -1,15 +1,17 @@
-Majority
+# Majority
 
-Task:
+## Task:
+
 Create a function named majority that takes an array of numbers.
 
-📌 Function Purpose:
+## 📌 Function Purpose:
+
 Return the element that appears the most frequently in the array.
 
-📥 Input:
+## ;📥 Input:
 An array of numbers (e.g., [1, 1, 2, 1])
 
-📤 Output:
+## 📤 Output:
 The number that occurs with majority in the array (e.g., 1)
 
 📌 Example:
