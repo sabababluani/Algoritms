@@ -1,21 +1,17 @@
-function compress(str) {
-  let result = "";
-  let lastLetter = str[0];
-  let count = 1;
+function compress(string) {
+  if (string.length === 0) return null;
 
-  for (let i = 1; i < str.length; i++) {
-    const currLetter = str[i];
-    if (lastLetter !== currLetter) {
-      result += lastLetter + count;
-      count = 1;
+  let counter = 1;
+  let compressedWord = "";
+
+  for (let i = 0; i < string.length; i++) {
+    if (string[i] === string[i + 1]) {
+      counter++;
     } else {
-      count++;
+      compressedWord += string[i] + counter;
+      counter = 1;
     }
-
-    lastLetter = currLetter;
   }
 
-  result += lastLetter + count;
-
-  return result;
+  return compressedWord;
 }
