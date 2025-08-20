@@ -1,6 +1,6 @@
 # Pangram Sentence Checker
 
-A **pangram** is a sentence that contains **every letter of the alphabet at least once**.
+A **pangram** is a sentence that contains **every letter of the alphabet at least once**
 
 One of the most famous examples of a pangram is:
 
